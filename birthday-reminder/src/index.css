@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: whitesmoke;
+}
+.pic{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.person{
+    background-color: #222;
+    padding: 8px;
+    margin: 10px 10px 15px 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.person *{
+    padding: 5px;
+}
+.today{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.App{
+    background-color: #111;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.App button{
+    width: 50%;
+    padding: 10px 5px 10px 5px;
+    background-color: #000;
+    color: whitesmoke;
+    border-radius: 12px;
+    border: none;
+}
+.App button:hover{
+    background-color: #222;
+}
